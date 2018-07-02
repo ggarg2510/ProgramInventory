@@ -1,0 +1,284 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProgrammeInventory
+</name>
+</assembly>
+<members>
+<member name="T:Programme_Inventory.programme_inventoryDataSet2.moduleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2.moduleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2.moduleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2TableAdapters.moduleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Programme_Inventory.programme_inventoryDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Programme_Inventory.programme_inventoryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Programme_Inventory.programme_inventoryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.UpdateAll(Programme_Inventory.programme_inventoryDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1.usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1.usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1.usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1TableAdapters.usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Programme_Inventory.programme_inventoryDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Programme_Inventory.programme_inventoryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Programme_Inventory.programme_inventoryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.UpdateAll(Programme_Inventory.programme_inventoryDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4.programmeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4.programmeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4.programmeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4TableAdapters.programmeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Programme_Inventory.programme_inventoryDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Programme_Inventory.programme_inventoryDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Programme_Inventory.programme_inventoryDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.UpdateAll(Programme_Inventory.programme_inventoryDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet.usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet.usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet.usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSetTableAdapters.usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Programme_Inventory.programme_inventoryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Programme_Inventory.programme_inventoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Programme_Inventory.programme_inventoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.UpdateAll(Programme_Inventory.programme_inventoryDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3.programmeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3.programmeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3.programmeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3TableAdapters.programmeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Programme_Inventory.programme_inventoryDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Programme_Inventory.programme_inventoryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Programme_Inventory.programme_inventoryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.UpdateAll(Programme_Inventory.programme_inventoryDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Programme_Inventory.programme_inventoryDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Programme_Inventory.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Programme_Inventory.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Programme_Inventory.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="programme_inventoryDataSet3" targetNamespace="http://tempuri.org/programme_inventoryDataSet3.xsd" xmlns:mstns="http://tempuri.org/programme_inventoryDataSet3.xsd" xmlns="http://tempuri.org/programme_inventoryDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="programme_inventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="programme_inventoryConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Programme_Inventory.My.MySettings.GlobalReference.Default.programme_inventoryConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="programmeTableAdapter" GeneratorDataComponentClassName="programmeTableAdapter" Name="programme" UserDataComponentName="programmeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="programme_inventoryConnectionString (MySettings)" DbObjectName="programme_inventory.programme" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `NameProgramme` FROM `programme`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NameProgramme" DataSetColumn="NameProgramme" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="programme_inventoryDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="programme_inventoryDataSet3" msprop:Generator_UserDSName="programme_inventoryDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="programme" msprop:Generator_TableClassName="programmeDataTable" msprop:Generator_TableVarName="tableprogramme" msprop:Generator_TablePropName="programme" msprop:Generator_RowDeletingName="programmeRowDeleting" msprop:Generator_RowChangingName="programmeRowChanging" msprop:Generator_RowEvHandlerName="programmeRowChangeEventHandler" msprop:Generator_RowDeletedName="programmeRowDeleted" msprop:Generator_UserTableName="programme" msprop:Generator_RowChangedName="programmeRowChanged" msprop:Generator_RowEvArgName="programmeRowChangeEvent" msprop:Generator_RowClassName="programmeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NameProgramme" msprop:Generator_ColumnVarNameInTable="columnNameProgramme" msprop:Generator_ColumnPropNameInRow="NameProgramme" msprop:Generator_ColumnPropNameInTable="NameProgrammeColumn" msprop:Generator_UserColumnName="NameProgramme" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

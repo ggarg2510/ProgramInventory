@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="programme_inventoryDataSet2" targetNamespace="http://tempuri.org/programme_inventoryDataSet2.xsd" xmlns:mstns="http://tempuri.org/programme_inventoryDataSet2.xsd" xmlns="http://tempuri.org/programme_inventoryDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="programme_inventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="programme_inventoryConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Programme_Inventory.My.MySettings.GlobalReference.Default.programme_inventoryConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="moduleTableAdapter" GeneratorDataComponentClassName="moduleTableAdapter" Name="module" UserDataComponentName="moduleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="programme_inventoryConnectionString (MySettings)" DbObjectName="programme_inventory.module" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `NameModule`, `Description`, `Fee` FROM `module`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NameModule" DataSetColumn="NameModule" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Fee" DataSetColumn="Fee" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="programme_inventoryDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="programme_inventoryDataSet2" msprop:Generator_UserDSName="programme_inventoryDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="module" msprop:Generator_TableClassName="moduleDataTable" msprop:Generator_TableVarName="tablemodule" msprop:Generator_TablePropName="_module" msprop:Generator_RowDeletingName="moduleRowDeleting" msprop:Generator_RowChangingName="moduleRowChanging" msprop:Generator_RowEvHandlerName="moduleRowChangeEventHandler" msprop:Generator_RowDeletedName="moduleRowDeleted" msprop:Generator_UserTableName="module" msprop:Generator_RowChangedName="moduleRowChanged" msprop:Generator_RowEvArgName="moduleRowChangeEvent" msprop:Generator_RowClassName="moduleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NameModule" msprop:Generator_ColumnVarNameInTable="columnNameModule" msprop:Generator_ColumnPropNameInRow="NameModule" msprop:Generator_ColumnPropNameInTable="NameModuleColumn" msprop:Generator_UserColumnName="NameModule">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fee" msprop:Generator_ColumnVarNameInTable="columnFee" msprop:Generator_ColumnPropNameInRow="Fee" msprop:Generator_ColumnPropNameInTable="FeeColumn" msprop:Generator_UserColumnName="Fee" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
